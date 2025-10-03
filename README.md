@@ -10,7 +10,7 @@ Este proyecto contiene un script en **Bash** (`generate_password.sh`) que genera
 
 ## Lenguaje
 
-- **Bash (Bourne Again Shell)**
+- **Bash**
 
 ## ¿Cómo funciona?
 
