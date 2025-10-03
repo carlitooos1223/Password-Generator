@@ -1,6 +1,6 @@
 # Generador de Contraseñas Seguras
 
-Este proyecto contiene un script en **Bash** (`script.sh`) que genera una contraseña aleatoria y segura con las siguientes características:
+Este proyecto contiene un script en **Bash** (`generate_password.sh`) que genera una contraseña aleatoria y segura con las siguientes características:
 
 - Al menos un carácter especial
 - Al menos un dígito
@@ -25,5 +25,16 @@ El script define una función `generatePassword` que:
 1. **Haz el script ejecutable** (si es necesario):
 
    ```sh
-   chmod +x script.sh
+   chmod +x generate_password.sh
    ```
+2. **Ejecuta el script:**
+   ```sh
+   ./generate_password.sh
+   ```
+3. **Salida:**
+   El script mostrará una contraseña aleatoria en la terminal.
+## Ejemplo de salida
+```
+;A9b+z1g2<yR
+````
+Puedes modificar el script para cambiar la longitud de la contraseña o los caracteres permitidos según tus necesidades.
